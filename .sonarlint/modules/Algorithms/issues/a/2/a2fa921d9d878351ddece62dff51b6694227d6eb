@@ -1,0 +1,8 @@
+
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁüŽ8š¯ø´À,H—RMINORZ
+CODE_SMELL
+‰squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘8„çŽµÀ,H¨RCRITICALZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ8œÓ‡µÀ,H¦RMAJORZ
+CODE_SMELL

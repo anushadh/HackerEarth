@@ -1,0 +1,13 @@
+
+msquid:S1854"9Remove this useless assignment to local variable "dates".(öêË8ƒĞÌ´À,H†RMAJORZ
+CODE_SMELL
+‹squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÓÕ ùÿÿÿÿ8Š¿´À,H‚RMINORZ
+CODE_SMELL
+hsquid:S1066"/Merge this if statement with the enclosing one.(Ä…Ûûÿÿÿÿ8Èöß´À,H‰RMAJORZ
+CODE_SMELL
+^squid:S1481"*Remove this unused "dates" local variable.(öêË8ƒĞÌ´À,H…RMINORZ
+CODE_SMELL
+csquid:S00108")Either remove or fill this block of code.(Ä…Ûûÿÿÿÿ8ãÁã´À,HRMAJORZ
+CODE_SMELL
+…squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁü8Ÿê²´À,HwRMINORZ
+CODE_SMELL
