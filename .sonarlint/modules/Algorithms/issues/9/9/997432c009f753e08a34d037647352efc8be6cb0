@@ -1,0 +1,10 @@
+
+^squid:S1659"%Declare "suvojit" on a separate line.( ŒîÍıÿÿÿÿ8Îü¿À,HRMINORZ
+CODE_SMELL
+‹squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šåÊËşÿÿÿÿ8¯…‘¾À,HŸRMINORZ
+CODE_SMELL
+q
+squid:S106 "9Replace this use of System.out or System.err by a logger.(Îß£Ñûÿÿÿÿ8´‘ÿ¿À,H RMAJORZ
+CODE_SMELL
+‹squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ´ª»üÿÿÿÿ8Ï°Ç½À,H¡RMINORZ
+CODE_SMELL

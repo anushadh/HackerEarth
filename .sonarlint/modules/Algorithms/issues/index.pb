@@ -9,3 +9,7 @@ O
 src/searching/SimpleSearch.java,a\2\a2fa921d9d878351ddece62dff51b6694227d6eb
 I
 src/searching/MinMax.java,a\2\a23ed4dca58178128d5d8ce01e60aadc3e8dcd8e
+R
+"src/searching/MannasFirstName.java,9\9\997432c009f753e08a34d037647352efc8be6cb0
+Q
+!src/searching/RepeatedKTimes.java,e\a\ea5f1739d3dc88edd53be00134366db6c219f988

@@ -1,0 +1,7 @@
+
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁüŽ8ì½ÁÞÀ,H«RMINORZ
+CODE_SMELL
+csquid:S00108#")Either remove or fill this block of code.(£º¾âüÿÿÿÿ8éèÙÞÀ,HºRMAJORZ
+CODE_SMELL
+^squid:S1481""*Remove this unused "count" local variable.(æÕ¿¼8“‹åÞÀ,H¿RMINORZ
+CODE_SMELL

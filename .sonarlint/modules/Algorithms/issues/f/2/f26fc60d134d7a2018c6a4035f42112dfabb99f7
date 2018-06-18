@@ -1,10 +1,10 @@
 
-ƒsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(’¤ª½ÿÿÿÿÿ8äÁ¤ç¿,HhRMAJORZ
+‰squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Çµí‘8çæøæ¿,HæRCRITICALZ
 CODE_SMELL
-p
-squid:S106'"9Replace this use of System.out or System.err by a logger.(Û­êóþÿÿÿÿ8œü„ç¿,HiRMAJORZ
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§¼ÖÓ8×éäæ¿,HçRMINORZ
 CODE_SMELL
-…squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§¼ÖÓ8×éäæ¿,HjRMINORZ
+„squid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(’¤ª½ÿÿÿÿÿ8äÁ¤ç¿,HéRMAJORZ
 CODE_SMELL
-ˆsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Çµí‘8çæøæ¿,HkRCRITICALZ
+q
+squid:S106'"9Replace this use of System.out or System.err by a logger.(Û­êóþÿÿÿÿ8œü„ç¿,HèRMAJORZ
 CODE_SMELL
