@@ -2,6 +2,7 @@ package searching;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Scanner;
 
 /*Input:
@@ -16,7 +17,7 @@ Note: If multiple days have same weightage the date is cancelled and you must ou
 public class BreakupApp {
 
 	public static void main(String[] args) {
-		
+
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		Map<Integer, Integer> dates = new HashMap<>();
@@ -25,14 +26,52 @@ public class BreakupApp {
 				String S = sc.nextLine();
 				int length = S.length(); 
 				if(length >= 2 && length <= 1000) {
-					if(S.charAt(0) == 'G') {
-
-						
+					String date = "";
+					for(int s = 0; s < length; s++) {						
+						if(Character.isDigit(S.charAt(s))) {
+							date += S.charAt(s);
+							int datei = Integer.parseInt(date);
+							if(date.length() > 1) {
+								if(dates.containsKey(datei)) {
+									int value = dates.get(datei);
+									if(S.charAt(0) == 'G') {																				
+										dates.put(datei, value+2);
+									} else {
+										dates.put(datei, value+1);
+									}
+								} else {
+									if(S.charAt(0) == 'G') {
+										dates.put(datei, 2);
+									} else {
+										dates.put(datei, 1);
+									}
+								}
+								date = "";
+							}
+						}
 					}
 				}
 			}
 		}
-		
+		boolean dateFlag = false;
+		int maxWeightage = 0;
+		for(Entry<Integer, Integer> e : dates.entrySet()) {
+			if(e.getValue() > maxWeightage) {
+				maxWeightage = e.getValue(); 
+			}
+		}
+		for(Entry<Integer, Integer> e : dates.entrySet()) {
+			if(e.getValue() == maxWeightage) {
+				if(e.getKey() == 19 || e.getKey() == 20) {
+					dateFlag = true;
+				}
+			}
+		}
+		if(dateFlag) {
+			System.out.println("Date");
+		} else {
+			System.out.println("No Date");
+		}
 	}
 
 }
