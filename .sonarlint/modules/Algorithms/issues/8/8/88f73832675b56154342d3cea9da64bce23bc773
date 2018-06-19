@@ -1,13 +1,17 @@
 
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁü8Ÿê²´À,HêRMINORZ
+hsquid:S1066A"/Merge this if statement with the enclosing one.(¤ò•ÿÿÿÿÿ8æü¼ŠÁ,H‘RMAJORZ
 CODE_SMELL
-^squid:S1481"*Remove this unused "dates" local variable.(öêË8ƒĞÌ´À,HëRMINORZ
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁü8Ÿê²´À,HÄRMINORZ
 CODE_SMELL
-csquid:S00108")Either remove or fill this block of code.(Ä…Ûûÿÿÿÿ8ãÁã´À,HìRMAJORZ
+k
+squid:S106G"9Replace this use of System.out or System.err by a logger.(¦ÅÂ:8¤¤˜ŠÁ,H«RMAJORZ
 CODE_SMELL
-msquid:S1854"9Remove this useless assignment to local variable "dates".(öêË8ƒĞÌ´À,HíRMAJORZ
+Psquid:S1643 "Use a StringBuilder instead.(ÚØ™8¯ªŠÁ,HøRMINORZ
 CODE_SMELL
-‹squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÓÕ ùÿÿÿÿ8Š¿´À,HîRMINORZ
+‹squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÓÕ ùÿÿÿÿ8Š¿´À,HÁRMINORZ
 CODE_SMELL
-hsquid:S1066"/Merge this if statement with the enclosing one.(Ä…Ûûÿÿÿÿ8Èöß´À,HïRMAJORZ
+‰squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 61 to the 15 allowed.(Çµí‘8ÇŠâ‰Á,HÉRCRITICALZ
+CODE_SMELL
+q
+squid:S106I"9Replace this use of System.out or System.err by a logger.(óƒ¿„şÿÿÿÿ8óÒÇŠÁ,H¬RMAJORZ
 CODE_SMELL

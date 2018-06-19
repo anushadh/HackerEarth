@@ -31,7 +31,7 @@ public class BreakupApp {
 						if(Character.isDigit(S.charAt(s))) {
 							date += S.charAt(s);
 							int datei = Integer.parseInt(date);
-							if(date.length() > 1) {
+							if(date.length() > 1) {  //Considers only dates in double digits
 								if(dates.containsKey(datei)) {
 									int value = dates.get(datei);
 									if(S.charAt(0) == 'G') {																				
@@ -72,6 +72,7 @@ public class BreakupApp {
 		} else {
 			System.out.println("No Date");
 		}
+		sc.close();
 	}
 
 }
