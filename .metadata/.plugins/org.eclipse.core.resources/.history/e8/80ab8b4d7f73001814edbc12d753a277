@@ -34,12 +34,11 @@ public class RepeatedKTimes {
 			Arrays.sort(array);
 			
 			int k = sc.nextInt();
-			int temp = 100001+1;
+			int temp = Integer.MAX_VALUE;
 			if(k >=1 && k <= 100001) {
-				int i = 0;
+				int i = 0, count = 0;
 				while(i < N) {
 					for(int j = i+1; j < N; j++) {
-						int count = 1;
 						if(array[i] == array[j]) {
 							count++;
 						}
@@ -47,13 +46,12 @@ public class RepeatedKTimes {
 							temp = Integer.min(array[i], temp);
 						}
 					}
-					i++;
 				}
 			}
 			System.out.println(temp);
 			sc.close();
 		}
-			//Using map O(N)
+			//Using map
 		/*Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		if(N >=1 && N <= 100001) {
