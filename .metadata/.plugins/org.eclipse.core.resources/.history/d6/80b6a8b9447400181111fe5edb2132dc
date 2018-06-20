@@ -1,0 +1,15 @@
+package searching;
+
+import java.util.Scanner;
+
+public class SquareTransactions {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int T = sc.nextInt();
+		if(T>=1 && T<=100000) {
+			
+		}
+		
+	}
+}

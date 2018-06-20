@@ -1,0 +1,22 @@
+package searching;
+
+import java.util.Scanner;
+
+public class SquareTransactions {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int T = sc.nextInt();
+		int[] transactions = new int[T];
+		if(T>=1 && T<=100000) {
+			for(int t = 0; t<T; t++) {
+				transactions[t] = sc.nextInt();
+				int Q = sc.nextInt();
+				if(Q>=1 && Q<=1000000) {
+					
+				}
+			}
+		}
+		
+	}
+}

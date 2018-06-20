@@ -1,10 +1,10 @@
 
-‹squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ´ª»üÿÿÿÿ8Ï°Ç½À,H±RMINORZ
+‹squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ´ª»üÿÿÿÿ8Ï°Ç½À,HûRMINORZ
 CODE_SMELL
-‰squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Çµí‘8¯ÛÌ‹Á,HçRCRITICALZ
+‰squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Çµí‘8¯ÛÌ‹Á,HüRCRITICALZ
 CODE_SMELL
-‹squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šåÊËþÿÿÿÿ8¯…‘¾À,H®RMINORZ
+‹squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šåÊËþÿÿÿÿ8¯…‘¾À,HýRMINORZ
 CODE_SMELL
 q
-squid:S106&"9Replace this use of System.out or System.err by a logger.(Îß£Ñûÿÿÿÿ8•îÏ‹Á,HïRMAJORZ
+squid:S106&"9Replace this use of System.out or System.err by a logger.(Îß£Ñûÿÿÿÿ8•îÏ‹Á,HþRMAJORZ
 CODE_SMELL

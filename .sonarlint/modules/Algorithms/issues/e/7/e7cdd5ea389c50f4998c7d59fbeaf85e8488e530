@@ -1,14 +1,14 @@
 
-…squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Š˜õ8Òº‚æ¿,HRMINORZ
+¿%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8¤Ö¢æ¿,HäRMINORZ
 CODE_SMELL
-p
-squid:S1060"9Replace this use of System.out or System.err by a logger.(éĞ«şÿÿÿÿ8Òº‚æ¿,HRMAJORZ
+q
+squid:S1060"9Replace this use of System.out or System.err by a logger.(éĞ«şÿÿÿÿ8Òº‚æ¿,HåRMAJORZ
 CODE_SMELL
-Šsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¼Ä”ùÿÿÿÿ8Òº‚æ¿,HRMINORZ
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Š˜õ8Òº‚æ¿,HæRMINORZ
 CODE_SMELL
-~squid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(õ¿ñÿ8è¯¢æ¿,H1RMAJORZ
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õ¿ñÿ8”¿˜æ¿,HçRMAJORZ
 CODE_SMELL
-~squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õ¿ñÿ8”¿˜æ¿,H%RMAJORZ
+‹squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¼Ä”ùÿÿÿÿ8Òº‚æ¿,HèRMINORZ
 CODE_SMELL
-¾%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8¤Ö¢æ¿,H7RMINORZ
+squid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(õ¿ñÿ8è¯¢æ¿,HéRMAJORZ
 CODE_SMELL
