@@ -13,3 +13,5 @@ R
 "src/searching/MannasFirstName.java,9\9\997432c009f753e08a34d037647352efc8be6cb0
 Q
 !src/searching/RepeatedKTimes.java,e\a\ea5f1739d3dc88edd53be00134366db6c219f988
+U
+%src/searching/SquareTransactions.java,9\e\9ef42a065eaed2add44a2be86c9d5b864aaa2985

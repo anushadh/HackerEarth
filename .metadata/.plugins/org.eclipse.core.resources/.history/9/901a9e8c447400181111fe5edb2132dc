@@ -1,7 +1,0 @@
-package searching;
-
-public class SquareTransactions {
-	public static void main(String[] args) {
-		
-	}
-}
