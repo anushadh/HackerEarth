@@ -15,3 +15,7 @@ Q
 !src/searching/RepeatedKTimes.java,e\a\ea5f1739d3dc88edd53be00134366db6c219f988
 U
 %src/searching/SquareTransactions.java,9\e\9ef42a065eaed2add44a2be86c9d5b864aaa2985
+N
+src/searching/RestInPeace.java,e\3\e3a1c5ba11a333878cfb24ab97be655dbf8293a5
+V
+&src/searching/PolicemenandThieves.java,8\8\8808d567e5ab3fe87cd96a36cff01e662c69482c

@@ -1,0 +1,37 @@
+package binarySearch;
+
+import java.util.Scanner;
+
+public class BishuandSoldiers {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		if(N >=1 && N <= 10000) {
+			int[] soldiers = new int[N];
+			for(int i = 0; i < N; i++) {
+				int p = sc.nextInt();
+				if(p >= 1 && p <= 100) {
+					soldiers[i] = p;
+				}
+			}
+			int Q = sc.nextInt();
+			if(Q >= 1 && Q <= 10000) {
+				for(int i = 0; i < Q; i++) {
+					int b = sc.nextInt();
+					if(b >= 1 && b <= 100) {
+						findPowerOfBishu(soldiers, N, b);
+					}
+				}
+			}
+		}
+		
+	}
+
+	private static void findPowerOfBishu(int[] soldiers, int n, int bishuPower) {
+		
+		
+	}
+
+}
