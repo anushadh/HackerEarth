@@ -1,0 +1,19 @@
+
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š™”üÿÿÿÿHÈRMINORZ
+CODE_SMELL
+‚squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Çµí‘HÅRCRITICALZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(¥›Š¢HÂRMAJORZ
+CODE_SMELL
+ysquid:S18714"LThis branch's code block is the same as the block for the branch on line 47.(å¥‡HÁRMAJORZ
+CODE_SMELL
+Š
+squid:S135."YReduce the total number of break and continue statements in this loop to use at most one.(¾Š”ÁûÿÿÿÿHÃRMINORZ
+CODE_SMELL
+e
+squid:S1069"9Replace this use of System.out or System.err by a logger.(¢àóÄHÄRMAJORZ
+CODE_SMELL
+„squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ´ª»üÿÿÿÿHÆRMINORZ
+CODE_SMELL
+squid:S00117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìú½ûHÇRMINORZ
+CODE_SMELL

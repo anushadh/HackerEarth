@@ -1,10 +1,0 @@
-
-‰squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(Çµí‘8ğÔÍ³Á,H«RCRITICALZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁü8¦‹½³Á,H¬RMINORZ
-CODE_SMELL
-q
-squid:S1065"9Replace this use of System.out or System.err by a logger.(ì­øúÿÿÿÿ8éÙ³Á,H­RMAJORZ
-CODE_SMELL
-squid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(¥›Š¢8µşº³Á,H®RMAJORZ
-CODE_SMELL

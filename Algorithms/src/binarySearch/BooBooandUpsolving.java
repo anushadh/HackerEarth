@@ -25,8 +25,9 @@ The output consists of one integer, the minimum time T as described in the probl
 public class BooBooandUpsolving {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		
+		
 	}
 
 }

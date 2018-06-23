@@ -44,7 +44,7 @@ public class BishuandSoldiers {
 				}
 			}
 		}
-
+		sc.close();
 	}
 
 	/*//Using loop - linear search
@@ -70,8 +70,12 @@ public class BishuandSoldiers {
 		int totalPower = 0;
 		int start = 0, end = n-1;
 		int pointer = 0;
-		while(start < end) {
+		while(start <= end) {
 			int mid = (start+end)/2;
+			if(start == end) {
+				pointer = end;
+				break;
+			} else
 			if(soldiers[mid] > bishuPower) {
 				end = mid - 1;
 				pointer = end;

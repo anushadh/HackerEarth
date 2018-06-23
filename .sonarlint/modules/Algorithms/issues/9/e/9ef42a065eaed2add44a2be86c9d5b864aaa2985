@@ -1,17 +1,0 @@
-
-l
-squid:S106&"9Replace this use of System.out or System.err by a logger.(¢àóÄ8„ğôİÁ,H²RMAJORZ
-CODE_SMELL
-‘
-squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¾Š”Áûÿÿÿÿ8ñÆŞÁ,H³RMINORZ
-CODE_SMELL
-‰squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Çµí‘8£àÎÜÁ,H´RCRITICALZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìú½û8£àÎÜÁ,HµRMINORZ
-CODE_SMELL
-‹squid:S00117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ´ª»üÿÿÿÿ8£àÎÜÁ,H¶RMINORZ
-CODE_SMELL
-squid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(¥›Š¢8¢¹ÎÜÁ,H·RMAJORZ
-CODE_SMELL
-€squid:S1871!"LThis branch's code block is the same as the block for the branch on line 28.(å¥‡8¨Ú’ŞÁ,H¸RMAJORZ
-CODE_SMELL
