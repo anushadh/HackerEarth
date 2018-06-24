@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;&apos; to &apos;binarySearch.DiscovertheMonk&apos;&#x0D;&#x0A;- Original project: &apos;Algorithms&apos;&#x0D;&#x0A;- Destination element: &apos;binarySearch.DiscovertheMonk&apos;&#x0D;&#x0A;- Original element: &apos;binarySearch.DiscovertheMonk.findXInArray(...)&apos;" description="Copy method" destination="/src&lt;binarySearch{DiscovertheMonk.java[DiscovertheMonk" element1="/src&lt;binarySearch{DiscovertheMonk.java[DiscovertheMonk~findXInArray~\[I~I" flags="589830" id="org.eclipse.jdt.ui.copy" members="1" policy="org.eclipse.jdt.ui.copyMembers" stamp="1529829827569" version="1.0"/>
+</session>

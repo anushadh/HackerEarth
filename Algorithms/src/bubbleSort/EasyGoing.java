@@ -27,7 +27,7 @@ public class EasyGoing {
 				}
 			}
 		}
-		
+		sc.close();
 	}
 
 	private static int findDifference(int[] array, int no) {

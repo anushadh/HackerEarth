@@ -1,0 +1,41 @@
+package bubbleSort;
+
+import java.util.Collections;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Scanner;
+import java.util.TreeMap;
+
+public class TheBestPlayer {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int t = sc.nextInt();
+		if(t>=1 && t<=n && n>=1 && n<=1000) {
+			TreeMap<Integer, String> fans = new TreeMap<>(Collections.reverseOrder());
+			for(int i = 0; i < n; i++) {
+				String fan = sc.next(); 
+				int quotient = sc.nextInt();
+				int length = fan.length()-1;
+				if(length >= 1 && length <= 20 && quotient >= 1 && quotient <= Math.pow(10, 9)) {
+					fans.put(quotient, fan);
+					//System.out.println(i);
+				}
+			}
+			findFans(fans, t);
+			fans.toString()
+		}
+		sc.close();
+	}
+
+	private static void findFans(Map<Integer, String> fans, int t) {
+		String[] finalList = new String[t];
+		for(Entry<Integer, String> e : fans.entrySet()) {
+			
+			//System.out.println(t);
+		}
+		
+	}
+
+}
