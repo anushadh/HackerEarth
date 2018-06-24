@@ -48,13 +48,13 @@ public class DiscovertheMonk {
 		int end = array.length - 1;
 		while(start <= end) {
 			int mid = (start+end)/2;
-			if(array[mid] < x) {
+			if(array[mid] == x) {
+				return "YES";
+			}else if(array[mid] < x) {
 				start = mid+1;
 			} else if(array[mid] > x) {
 				end = mid-1;
-			} else {
-				return "YES";
-			}
+			} 
 		}
 		return "NO";
 	}
