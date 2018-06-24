@@ -1,9 +1,0 @@
-package searching;
-
-public class MannasFirstName {
-
-	public static void main(String[] args) {
-
-	}
-
-}

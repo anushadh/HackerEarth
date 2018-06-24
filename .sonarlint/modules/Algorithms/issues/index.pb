@@ -23,3 +23,15 @@ V
 &src/binarySearch/BishuandSoldiers.java,e\d\ed7b4aa1d70e797e56fec88780294754414b0975
 X
 (src/binarySearch/BooBooandUpsolving.java,c\1\c12cbf7d5ad55309646e5d42b9778863a0323c06
+S
+#src/binarySearch/MonkandSearch.java,b\d\bdf943e5474fe7e4be362317bcec09b5f15baf40
+M
+src/bubbleSort/EasyGoing.java,7\a\7a53c1d0efc4f4ed76e49ddf2d014953961062da
+U
+%src/binarySearch/DiscovertheMonk.java,0\d\0dcd70d6c3f476d45e8566163f2c77a7f2da94cd
+Q
+!src/bubbleSort/TheBestPlayer.java,3\2\32bfab720eb52969c83b1172e89374b0ceea7fb0
+P
+ src/bubbleSort/SavePatients.java,8\4\849b7662484bbbf295cf712c4316847208e5ea07
+N
+src/bubbleSort/SimpleGame.java,b\7\b791b0592c95ee84d559ecc4472c0e85442d71e3
