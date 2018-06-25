@@ -2,12 +2,7 @@ package bubbleSort;
 
 /*Monk and !Monk decided to play a simple number game. Each of them had a set of numbers 
 (may contain a number more than once) to play with. Lets denote by A the set belonging 
-to Monk, and by B, the set belonging to !Monk.
-
-*fx: Returns count of numbers strictly smaller than x in opponent's set
-*gx:  Returns count of numbers strictly greater than x in opponent's set
-*vx = fx * gx
-*Score of a player = Sum of all vx	*/
+to Monk, and by B, the set belonging to !Monk.*/
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -34,25 +29,23 @@ public class SimpleGame {
 	}
 
 	private static void findWinner(int[] monk, int[] monk2, int n, int m) {
-		Arrays.sort(monk);
-		Arrays.sort(monk2);
+		int[] sortedMonk = monk;
+
 		long monkScore = 0;
 		long monk2Score = 0;
 
 		for(int i = 0; i < n; i++) {
-			/*int fx = countGreater(monk[i], monk2, m, false);
+			int fx = countGreater(monk[i], monk2, m, false);
 			int gx = countGreater(monk[i], monk2, m, true);
-			int vx = fx * gx;*/
-			int vx = countGreater(monk[i], monk2, m);
+			int vx = fx * gx;
 			//System.out.println("Monk " + i + ": fx:" + fx + " gx:" + gx + " vx:" + vx);
 			monkScore += vx;
 		}
 
 		for(int i = 0; i < m; i++) {
-			/*int fx = countGreater(monk2[i], monk, n, false);
+			int fx = countGreater(monk2[i], monk, n, false);
 			int gx = countGreater(monk2[i], monk, n, true);
-			int vx = fx * gx;*/
-			int vx = countGreater(monk2[i], monk, n);
+			int vx = fx * gx;
 			//System.out.println("Monk2 " + i + ": fx:" + fx + " gx:" + gx + " vx:" + vx);
 			monk2Score += vx;
 		}
@@ -67,7 +60,7 @@ public class SimpleGame {
 
 	}
 
-	private static int countGreater(int x, int[] monk, int size/*, boolean greater*/) {
+	private static int countGreater(int x, int[] monk, int size, boolean greater) {
 		int countGreater = 0;
 		int countSmaller = 0;
 		int start = 0;
@@ -89,41 +82,25 @@ public class SimpleGame {
 		if(pointer < 0) {
 			pointer = 0;
 		}
-
-		for(int i = size-1; i >= pointer; i--) {
-			//System.out.println("Greater: x::" + x + "  i::" + i + "pointer:: " + pointer);
-			if(monk[i] > x) {
-				countGreater++;
+		if(greater) {
+			for(int i = size-1; i >= pointer; i--) {
+				//System.out.println("Greater: x::" + x + "  i::" + i + "pointer:: " + pointer);
+				if(monk[i] > x) {
+					countGreater++;
+				}
 			}
-		}
-
-		for(int i = 0; i <= pointer; i++) {
-			//System.out.println("Smaller: x::" + x + "  i::" + i + "pointer:: " + pointer);
-			if(monk[i] < x) {
-				countSmaller++;
+			
+			return countGreater;
+		} else {
+			for(int i = 0; i <= pointer; i++) {
+				//System.out.println("Smaller: x::" + x + "  i::" + i + "pointer:: " + pointer);
+				if(monk[i] < x) {
+					countSmaller++;
+				}
 			}
+			return countSmaller;
 		}
-		return (countGreater * countSmaller);
 	}
 
 }
-
-/*if(greater) {
-for(int i = size-1; i >= pointer; i--) {
-	//System.out.println("Greater: x::" + x + "  i::" + i + "pointer:: " + pointer);
-	if(monk[i] > x) {
-		countGreater++;
-	}
-}
-
-return countGreater;
-} else {
-for(int i = 0; i <= pointer; i++) {
-	//System.out.println("Smaller: x::" + x + "  i::" + i + "pointer:: " + pointer);
-	if(monk[i] < x) {
-		countSmaller++;
-	}
-}
-return countSmaller;
-}*/
 

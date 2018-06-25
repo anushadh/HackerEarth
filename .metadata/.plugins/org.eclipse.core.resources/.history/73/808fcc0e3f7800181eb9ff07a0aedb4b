@@ -2,12 +2,7 @@ package bubbleSort;
 
 /*Monk and !Monk decided to play a simple number game. Each of them had a set of numbers 
 (may contain a number more than once) to play with. Lets denote by A the set belonging 
-to Monk, and by B, the set belonging to !Monk.
-
-*fx: Returns count of numbers strictly smaller than x in opponent's set
-*gx:  Returns count of numbers strictly greater than x in opponent's set
-*vx = fx * gx
-*Score of a player = Sum of all vx	*/
+to Monk, and by B, the set belonging to !Monk.*/
 
 import java.util.Arrays;
 import java.util.Scanner;
