@@ -64,7 +64,7 @@ public class SimpleGame {
 
 	}
 
-	private static int countScore(int x, int[] monk, int size) {
+	private static int countGreater(int x, int[] monk, int size) {
 		int countGreater = 0;
 		int countSmaller = 0;
 		int start = 0;

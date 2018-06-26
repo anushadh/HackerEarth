@@ -43,13 +43,13 @@ public class SimpleGame {
 		long monk2Score = 0;
 
 		for(int i = 0; i < n; i++) {
-			long vx = countScore(monk[i], monk2, m);
+			long vx = countGreater(monk[i], monk2, m);
 			//System.out.println("Monk " + i + ": fx:" + fx + " gx:" + gx + " vx:" + vx);
 			monkScore += vx;
 		}
 
 		for(int i = 0; i < m; i++) {
-			long vx = countScore(monk2[i], monk, n);
+			long vx = countGreater(monk2[i], monk, n);
 			//System.out.println("Monk2 " + i + ": fx:" + fx + " gx:" + gx + " vx:" + vx);
 			monk2Score += vx;
 		}
@@ -64,7 +64,7 @@ public class SimpleGame {
 
 	}
 
-	private static int countScore(int x, int[] monk, int size) {
+	private static int countGreater(int x, int[] monk, int size) {
 		int countGreater = 0;
 		int countSmaller = 0;
 		int start = 0;
