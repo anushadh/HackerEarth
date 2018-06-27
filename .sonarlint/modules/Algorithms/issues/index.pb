@@ -33,7 +33,5 @@ Q
 !src/bubbleSort/TheBestPlayer.java,3\2\32bfab720eb52969c83b1172e89374b0ceea7fb0
 P
  src/bubbleSort/SavePatients.java,8\4\849b7662484bbbf295cf712c4316847208e5ea07
-N
-src/bubbleSort/SimpleGame.java,b\7\b791b0592c95ee84d559ecc4472c0e85442d71e3
 R
 "src/binarySearch/BinarySearch.java,2\4\2434682d85495ded15160210a785d594abd7cc4a
