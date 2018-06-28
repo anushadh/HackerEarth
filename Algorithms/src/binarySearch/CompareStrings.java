@@ -1,0 +1,52 @@
+package binarySearch;
+
+import java.util.Scanner;
+
+/*You have been given two strings, A and B (of length N each) and Q queries.
+The strings contain only 0s and/or 1s.
+
+For every query, you are given an index i. You have to update the value at 
+index i to 1 in string B and check if B is lexicographically equal to or larger than A or not.
+If yes, then print "Yes" and if not, print "No" (without quotes).
+
+Input format
+
+First line contains two space-separated integers N and Q.
+Next line contains the string A.
+Next line contains the string B.
+Next Q lines contains an integer i (1 - based indexing)
+Output Format
+
+For each query, print the desired output in a new line.*/
+
+public class CompareStrings {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		int Q = sc.nextInt();
+		if(N >= 1 && Q <= Math.pow(10, 6)) {
+			String A = sc.next();
+			String B = sc.next();
+			for(int i = 0; i < Q; i++) {
+				int index = sc.nextInt();
+				compareStrings(A, B, N, index);
+			}
+		}
+		
+		
+	}
+
+	private static void compareStrings(String a, String b, int n, int index) {
+		
+		StringBuffer bFinal = new StringBuffer();
+		
+		for(int i = 0; i < n; i++) {
+			//bFinal =  bFinal+ b.charAt(i);
+		}
+
+		
+	}
+
+}
