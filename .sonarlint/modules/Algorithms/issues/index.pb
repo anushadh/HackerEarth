@@ -37,3 +37,7 @@ R
 "src/binarySearch/BinarySearch.java,2\4\2434682d85495ded15160210a785d594abd7cc4a
 P
  src/binarySearch/SimpleGame.java,0\b\0bb5167da9c6576fa7d77c3cf3953334a6663059
+T
+$src/binarySearch/CompareStrings.java,0\c\0c5816a6a03d9e0699206a287c920818f9856a6a
+P
+ src/binarySearch/StonesLove.java,b\0\b0e49660edeb4385f628c3827d9407729f569d6f

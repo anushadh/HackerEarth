@@ -40,8 +40,7 @@ public class CompareStrings {
 
 	private static void compareStrings(String a, String b, int n, int index) {
 		
-		StringBuffer bFinal = new StringBuffer();
-		
+		//StringBuilder 
 		for(int i = 0; i < n; i++) {
 			//bFinal =  bFinal+ b.charAt(i);
 		}
