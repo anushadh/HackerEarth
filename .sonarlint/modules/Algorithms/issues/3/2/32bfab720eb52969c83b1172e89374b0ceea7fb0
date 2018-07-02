@@ -1,14 +1,14 @@
 
-csquid:S00108 ")Either remove or fill this block of code.(Õ°®åûÿÿÿÿ8âıçŠÃ,HRMAJORZ
+_squid:S1481 "&Remove this unused "e" local variable.(Õ°®åûÿÿÿÿ8‰”¡ˆÃ,HñRMINORZ
 CODE_SMELL
-qsquid:S1854"=Remove this useless assignment to local variable "finalList".(‹Âñ‘8¸êã‡Ã,HRMAJORZ
+bsquid:S1481".Remove this unused "finalList" local variable.(‹Âñ‘8¸êã‡Ã,HòRMINORZ
 CODE_SMELL
-bsquid:S1481".Remove this unused "finalList" local variable.(‹Âñ‘8¸êã‡Ã,H‘RMINORZ
+qsquid:S1854"=Remove this useless assignment to local variable "finalList".(‹Âñ‘8¸êã‡Ã,HóRMAJORZ
 CODE_SMELL
-squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í·€¶şÿÿÿÿH’RMINORZ
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í·€¶şÿÿÿÿHôRMINORZ
 CODE_SMELL
-_squid:S1481 "&Remove this unused "e" local variable.(Õ°®åûÿÿÿÿ8‰”¡ˆÃ,H“RMINORZ
+csquid:S00108 ")Either remove or fill this block of code.(Õ°®åûÿÿÿÿ8âıçŠÃ,HõRMAJORZ
 CODE_SMELL
 k
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ûşÿ8ÄÖãŠÃ,H”RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ûşÿ8ÄÖãŠÃ,HöRMAJORZ
 CODE_SMELL

@@ -1,8 +1,0 @@
-package bubbleSort;
-
-public class EasyGoing {
-	
-	public static void main(String args[]) {
-		
-	}
-}

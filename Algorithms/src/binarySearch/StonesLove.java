@@ -1,6 +1,7 @@
 package binarySearch;
 
-import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map.Entry;
 import java.util.Scanner;
 
 /*Senorita likes stones very much. As she is fond of collecting beautiful stones, everyday 
@@ -26,25 +27,38 @@ public class StonesLove {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int q = sc.nextInt();
+		HashMap<Integer, Long> sumMap = new HashMap<>();
+		long sum = 0;
 		if(n >= 1 && q <= (5 * (Math.pow(10, 5)))) {
 			int[] stones = new int[n];
 			for(int i = 0; i < n; i++) {
 				stones[i] = sc.nextInt();
+				sum += stones[i];
+				//System.out.println(sum + "sum----");
+				sumMap.put(i+1, sum);
 			}
-			Arrays.sort(stones);
 			for(int i = 0; i < q; i++) {
 				int query = sc.nextInt();
-				findNoOfDays(query, stones, n);
+				findNoOfDays(query, sumMap);
+				//findNoOfDays(query, stones, n);
 			}
 		}
 	}
 
-	private static void findNoOfDays(int query, int[] stones, int n) {
+	private static void findNoOfDays(int query, HashMap<Integer, Long> sumMap) {
+		for(Entry<Integer, Long> e : sumMap.entrySet()) {
+			if(e.getValue() >= query) {
+				System.out.println(e.getKey());
+				break;
+			} 
+		}
+	}
+
+	/*private static void findNoOfDays(int query, int[] stones, int n) {
 		long sum = 0;
-		
-		int pointer = findPointer(stones, 0, n-1, query);
-		System.out.println("p::" + pointer);
-		for(int i = 0 ; i < pointer; i++) {
+		int pointer = findPointer(stones, n, query);
+		//System.out.println("Q : " + query + "p::" + pointer);
+		for(int i = 0 ; i <= pointer; i++) {
 			sum += stones[i];
 			if(sum >= query) {
 				System.out.println(i + 1);
@@ -53,24 +67,30 @@ public class StonesLove {
 		}
 	}
 
-	private static int findPointer(int[] stones, int start, int end, int query) {
+	private static int findPointer(int[] stones, int n, int query) {
+		int start = 0;
+		int end = n-1;
 		int mid = (start+end)/2;
 		int pointer = 0;
-		if(mid == end) {
-			return start;
+		if(query < stones[0]) {
+			return 0;
+		} else if(query > stones[end]) {
+			return n-1;
 		}
-		if(stones[mid] == query) {
-			return mid;
-		} else if(stones[mid] > query) {
-			pointer = mid - 1;
-			findPointer(stones, start, mid-1, query);
-		} else {
-			pointer = mid + 1;
-			findPointer(stones, mid+1, end, query);
+		while(start <= end) {
+			if(stones[mid] == query) {
+				return mid;
+			} else if(stones[mid] > query) {
+				end = mid-1;
+				pointer = end;
+			} else {
+				start = mid+1;
+				pointer = start;
+			}
 		}
 		
 		return pointer;
-	}
+	}*/
 }
 
 
